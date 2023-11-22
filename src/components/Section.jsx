@@ -1,5 +1,5 @@
 import React from "react";
-import "./section.css"
+import "./section.css";
 import Amazon from "./assets/amazon.webp";
 import Pic1 from "./assets/p1.webp";
 import Pic2 from "./assets/p2.webp";
@@ -18,6 +18,7 @@ const Section = () => {
           style={{ position: "relative", display: "flex" }}
           className="index-module--container--pL-5P"
         >
+            <div className="container1">
           <div
             id="carouselExampleRide"
             class="carousel slide main-caro"
@@ -58,17 +59,15 @@ const Section = () => {
               ></span>
               <span class="visually-hidden">Next</span>
             </button>
-
-          
           </div>
-
+          </div>
           <div class="index-module--contentContainer--oW29e">
             <div>
-                <p>HUElite</p>
-                <h1>HUElite Spectrum Strip</h1>
-                <h5>60led/mtr</h5>
+              <p>HUElite</p>
+              <h1>HUElite Spectrum Strip</h1>
+              <h5>60led/mtr</h5>
 
-                <div className="flex-container">
+              <div className="flex-container">
                 <button
                   style={{
                     marginRight: "30px",
@@ -97,11 +96,9 @@ const Section = () => {
                 >
                   <h4 style={{ color: "#ffffff", fontWeight: 500 }}>10 mtr</h4>
                 </button>
-        
-
-                </div>
-                <h2 style={{ marginBottom: 0, marginTop: "20px" }}>Rs-1399/-</h2>
-                <h6
+              </div>
+              <h2 style={{ marginBottom: 0, marginTop: "20px" }}>Rs-1399/-</h2>
+              <h6
                 style={{
                   margin: 0,
                   backgroundColor: "#27AE60",
@@ -116,56 +113,93 @@ const Section = () => {
               </h6>
             </div>
             <div style={{ marginTop: "30px" }}>
-
-            <a>
-            <h3 style={{ color: "#fff", textAlign: "center" }}>
+              <a>
+                <h3 style={{ color: "#fff", textAlign: "center" }}>
                   Buy from Amazon
                 </h3>
-                </a>
+              </a>
+            </div>
+
+            <div>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Description
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Huelite LED light strips are packed with rich colors and
+                        fantastic light effects, perfect for any indoor occasion
+                        like bedrooms, kitchens, and bathrooms. They can be
+                        easily controlled using Huelite 3.0 App.
+                      </p>
+                      <ul>
+                        <li>
+                          Music Sync: Syncing lights at the rhythm of your
+                          music.
+                        </li>
+                        <li>Convenient Voice Control: Works with Alexa.</li>
+                        <li>
+                          Smart App Control: Control your lights via Wi-Fi.
+                        </li>
+                        <li>
+                          Easy Installation: Mount to any dry and clean surface.
+                        </li>
+                        <li>
+                          Colorful Life: Decorate with 16Million+ colors to
+                          choose from.
+                        </li>
+                        <li>
+                          Custom DIY Function: Choose your favourite effects on
+                          the app.
+                        </li>
+                        <li>
+                          Control from Anywhere: Control your space at your
+                          fingertips- literally.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
-                
-                <div>
-                <div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-      Description
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-      
-     <p>Huelite LED light strips are packed with rich colors and fantastic light effects, perfect for any indoor occasion like bedrooms, kitchens, and bathrooms. They can be easily controlled using Huelite 3.0 App.</p>
-    <ul>
-        <li>Music Sync: Syncing lights at the rhythm of your music.</li>
-        <li>Convenient Voice Control: Works with Alexa.</li>
-        <li>Smart App Control: Control your lights via Wi-Fi.</li>
-        <li>Easy Installation: Mount to any dry and clean surface.</li>
-        <li>Colorful Life: Decorate with 16Million+ colors to choose from.</li>
-        <li>Custom DIY Function: Choose your favourite effects on the app.</li>
-        <li>Control from Anywhere: Control your space at your fingertips- literally.</li>
-        
-    </ul>
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-      PRODUCT SPECIFICATION
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        
-      </div>
-    </div>
-  </div>
-  </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      PRODUCT SPECIFICATION
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body"></div>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </div>
         </div>
-        </div>
-      
       </div>
     </>
   );
