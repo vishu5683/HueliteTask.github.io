@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/HueliteTask.github.io/static/css/main.e38c45ba.css",
-    "main.js": "/HueliteTask.github.io/static/js/main.943c0fc9.js",
+    "main.css": "/HueliteTask.github.io/static/css/main.0bbfd631.css",
+    "main.js": "/HueliteTask.github.io/static/js/main.1549e953.js",
     "static/js/787.d4aba7ab.chunk.js": "/HueliteTask.github.io/static/js/787.d4aba7ab.chunk.js",
     "static/media/p1.webp": "/HueliteTask.github.io/static/media/p1.8b14f19201e351e4729d.webp",
-    "static/media/amazon.webp": "/HueliteTask.github.io/static/media/amazon.b811bb74e7dcb76e79b3.webp",
     "static/media/p2.webp": "/HueliteTask.github.io/static/media/p2.bbe4f2d1bcc29f7a5a80.webp",
     "index.html": "/HueliteTask.github.io/index.html",
-    "main.e38c45ba.css.map": "/HueliteTask.github.io/static/css/main.e38c45ba.css.map",
-    "main.943c0fc9.js.map": "/HueliteTask.github.io/static/js/main.943c0fc9.js.map",
+    "main.0bbfd631.css.map": "/HueliteTask.github.io/static/css/main.0bbfd631.css.map",
+    "main.1549e953.js.map": "/HueliteTask.github.io/static/js/main.1549e953.js.map",
     "787.d4aba7ab.chunk.js.map": "/HueliteTask.github.io/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e38c45ba.css",
-    "static/js/main.943c0fc9.js"
+    "static/css/main.0bbfd631.css",
+    "static/js/main.1549e953.js"
   ]
 }
