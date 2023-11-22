@@ -1,0 +1,33 @@
+.flex-container{
+    
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+}
+
+a{
+    
+        height: 50px;
+        width: 100%;
+        background-color: #000;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+}
+
+ul {
+    margin-bottom: 1rem;
+    margin-top: 0;
+    padding-left: 2rem;
+}
+
+li{
+    
+        margin-top: 5px;
+    
+}
+
